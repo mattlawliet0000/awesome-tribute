@@ -2,25 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Fork Me! FCC: Test Suite Template</title>
+    <title>Awesome tribute</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,300;1,700&display=swap" rel="stylesheet">
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     <div id="main">
-      <h1 id="title"> This is a tribute page example </h1>
-      <div id="img-div">
-        <img id="image" src="https://picsum.photos/id/350/1080/600" alt="A beautiful image" />
-        <p id="img-caption">this is beautiful place to go</p>
+      <h1 id="title" class="block"> This is a tribute page example </h1>
+      <p id="subtitle" class="block"> This is a tribute page example </p>
+      <div id="img-div" class="block">
+        <div class="img-cont"><img id="image" src="https://picsum.photos/id/350/1080/600" alt="A beautiful image" /></div>
+        <p id="img-caption">This is beautiful place to go</p>
       </div>
-      <div id="tribute-info">
-       <div id="dates">
-
-       </div> 
-       <div id="foot">
-         <p><a href="https://github.com/mattlawliet0000/awesome-tribute" id="tribute-link" target="_blank">Open this link</a></p>
-       </div>
+      <div id="tribute-info" class="block">
+        <h3 id="info-title">This explains the changes that made this place awesome:</h3>
+        <div id="dates">
+          <ul>
+            <li><b>1946</b> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident odit officia, hic harum magnam illo.</li>
+            <li><b>1950</b> Totam sapiente minima, asperiores voluptate nihil iusto porro blanditiis voluptas? Harum, magnam maxime. Vero, quis.</li>
+            <li><b>1974</b> Doloribus corrupti repellendus consequuntur, mollitia repudiandae inventore. Harum maxime, quos quidem commodi reprehenderit dicta quasi!</li>
+            <li><b>1975</b> Incidunt earum, animi a inventore quidem voluptatem accusamus beatae aut, ad molestiae accusantium nemo hic.</li>
+            <li><b>1992</b> Ad rerum in aspernatur hic placeat quidem, voluptatibus quaerat, ipsam error iure, harum minima distinctio!</li>
+          </ul>
+        </div>
+        <div id="quote">
+          <i>
+            <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis laboriosam architecto eligendi praesentium sint quam ex esse ad ipsam explicabo!" <br><br>-Ioane Bagrat</p>
+          </i>
+        </div>
+      </div>
+      <div id="foot" class="block">
+        <p>For more info check <a href="https://github.com/mattlawliet0000/awesome-tribute" id="tribute-link" target="_blank">this link</a>.</p>
       </div>
     </div>
     <script  src="js/index.js"></script>
